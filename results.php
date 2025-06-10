@@ -4,12 +4,12 @@
     $userNumMax = $_POST['maxNumber'];
 
     // initialize the counter to 0
-    $counter = 0;
+    $counter = $userNumMin;
     // initalize numbers as an empty string
     $numbers = "";
     $numbers2 = "";
 
-    while ($counter <= $userNumMin) {
+    while ($counter == $userNumMin) {
         // build the string of numbers with a line break each time
         $numbers = $numbers . $counter . "<br>";
         // increment the counter
