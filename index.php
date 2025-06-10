@@ -29,10 +29,9 @@
 
     <!-- iframe for the results to show on the web page. -->
     <iframe id="results" name="results">
-      <h4>Order Summary</h4>";
       <div id="user-info">
-        <div id="subtotal"></div>
-        <div id="tax"></div>
+        <div id="$numbers"></div>
+        <div id="$numbers2"></div>
       </div>
     </iframe>  
   </body>
