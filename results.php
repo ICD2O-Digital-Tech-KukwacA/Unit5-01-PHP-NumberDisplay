@@ -9,7 +9,7 @@
     $numbers = "";
     $numbers2 = "";
 
-    while ($counter < $userNumMin) {
+    while ($counter >= $userNumMin) {
         // build the string of numbers with a line break each time
         $numbers = $numbers . $counter . "<br>";
         // increment the counter
@@ -24,5 +24,5 @@
 ?>	
 	<!-- display the results -->
     <h4>Results:</h4>
-    <?php echo $numbers ?>;
-    <?php echo $numbers2 ?>;
+    <?php echo $numbers ?>
+    <?php echo $numbers2 ?>
